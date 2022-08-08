@@ -1,0 +1,172 @@
+/* alert("Hello") */
+
+* { box-sizing: border-box;
+    margin: 0%;}
+
+body {
+    color: #39a6b2;
+    font-family: Helvetica, Arial, sans-serif;
+}
+  
+  
+/* HEADER / NAV BAR STYLES START */
+  
+header {
+    padding: 20px 35px;
+    
+    background-color: #8ec998;
+    /*background-color: #83adb9; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    color:darkblue
+}
+ 
+
+header nav {
+    margin: 7px 0;
+}
+  
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+  
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+}
+
+.hero {
+    background-size: cover;
+    background-position: center;
+    /* display: flex; */
+    display: block;
+    justify-content:left /* center; */
+    /*
+    flex-wrap: wrap;
+    align-items: flex-start;
+    */
+}
+
+.hero img{
+    display: flex; 
+    background-size: cover;
+    background-position:center;
+    justify-content:center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    
+}
+
+/*
+*/
+.container {
+    /*max-width: 1000px;*/
+    margin: 0 auto;
+}
+
+.container h2 {
+    /*max-width: 1000px;*/
+    margin: 0 auto;
+    color:black;
+
+}
+.grid-row {
+    display: flex;
+    flex-flow: row wrap;
+    /*justify-content: flex-start;*/
+    justify-content: space-between;
+}
+
+.grid-item {
+    border: 1px solid saddlebrown;
+    /*height: 100px;*/
+    flex-basis: 50%;
+    
+    /*flex: auto;*/
+    
+    /*width: 500px;*/
+    /*position: relative;*/
+    
+    /*position: absolute;*/
+    padding: 10px;
+    /*box-sizing: border-box;*/
+    /*text-align: center*/;
+    /*vertical-align: middle;*/
+}
+
+.pict {
+    padding-right: 10px;
+    /*padding-left: 10px;*/
+    /*align-items: center;*/
+    display:flex;
+    
+/*    width:200px;
+    height:200px; */
+    
+    /*vertical-align: middle;*/
+}
+
+.t_left{
+    text-align:left;
+}
+
+.t_right{
+    text-align:right;
+}
+
+.t_center{
+    text-align:center;
+}
+
+.work h2{
+    text-align:center;
+}
+
+.imgcenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-position: center;
+  }
+
+.portfolio {
+    flex: 4;
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 10px;
+    flex: 0 0 400px;
+}
+  
+.card header {
+    padding: 20px;
+}
+  
+.card p {
+    text-align: center;
+}
+  
+.card img {
+    width: 100%;
+}
+
+
+  
