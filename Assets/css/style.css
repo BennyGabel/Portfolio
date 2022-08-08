@@ -66,8 +66,6 @@ header nav ul li a {
     
 }
 
-/*
-*/
 .container {
     /*max-width: 1000px;*/
     margin: 0 auto;
@@ -101,6 +99,18 @@ header nav ul li a {
     /*box-sizing: border-box;*/
     /*text-align: center*/;
     /*vertical-align: middle;*/
+}
+
+#profile{
+    display: flex;
+    /*justify-content: center;*/
+    justify-content:right;
+    padding-right:10px;
+}
+
+#textprofile{
+    /*vertical-align: baseline;*/
+    vertical-align: middle;
 }
 
 .pict {
@@ -141,32 +151,74 @@ header nav ul li a {
 
 .portfolio {
     flex: 4;
+
     background-color: #fff;
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+
+     /* justify-content:space-around;  /*   : space-between; */
 }
 
-.card {
+/*.card .event3{*/
+.card{
     border-style: solid;
     border-width: 1px;
     border-radius: 10px;
     padding: 10px;
     flex: 0 0 400px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+card p{
+    text-align: center;
+    display: block;
 }
   
-.card header {
+/*.card .event3 header {*/
+card header {
     padding: 20px;
 }
-  
-.card p {
-    text-align: center;
-}
-  
+    
 .card img {
     width: 100%;
+    background-position: center;
+}
+
+/*.card:visited{*/
+.card:hover{
+    border-color: blueviolet;
+    border-style: double;
+    border-width: 3px;
+    background-color: #8ec998;
+    
+}
+
+.card .img-top {
+    display: none;
+    /*position: absolute;*/
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+#event3:hover .img-top {
+    display: inline;
 }
 
 
-  
+.clink{
+    justify-content: center;
+}
+
+#contact-me{
+    display: flex;
+    /*justify-content: center;*/
+    /*justify-content:*/
+    flex-direction:column;
+    padding-left:50px;
+}
+
