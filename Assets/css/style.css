@@ -125,6 +125,8 @@ header nav ul li a {
     flex: 0 0 400px;
     margin-left: 20px;
     margin-right: 20px;
+    /* margin-top: 20px;   */
+    margin-bottom: 20px;    /* Will kick in when wrapped up */
     /**/
     position: relative;
     display: inline-block;
@@ -174,3 +176,23 @@ contact-form input, .contact-form textarea {
   .contact_tbl tr{
     height: 30px;
   }
+
+
+/*  Media query  */
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+body section {
+    background-color: rgb(204, 204, 228);
+    color: #4b39b2;
+}
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+body section {
+    background-color: rgb(186, 194, 185);
+    color: #4b39b2;
+}
+}
+  
