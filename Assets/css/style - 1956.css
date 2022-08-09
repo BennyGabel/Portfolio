@@ -6,7 +6,6 @@
 body {
     color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
-    font-size: medium;
 }
   
   
@@ -122,19 +121,6 @@ header nav ul li a {
     /*vertical-align: middle;*/
 }
 
-.contactjpg {
-    display:flex;
-    padding-right: 5px;
-    position: relative;
-    justify-content: right;
-}
-
-.contact_tbl {
-    display:flex;
-    /*padding-right: 5px;*/
-    position: relative;
-    justify-content: center;
-}
 .t_left{
     text-align:left;
 }
@@ -225,14 +211,3 @@ header nav ul li a {
 .card:hover .img-top {
     display: inline;
 }
-
-contact-form input, .contact-form textarea {
-    border: 1px solid #024e76;
-    display: block;
-    padding: 7px 15px;
-    font-size: 16px;
-    color: #024e76;
-    width: 100%;
-    margin-bottom: 15px;
-    margin-top: 5px;
-  }
