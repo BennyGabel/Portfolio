@@ -11,7 +11,8 @@ The project have three sections
 3) Contact section
 
 # How to use this Project/Portfolio
-1)  There is a navigation area that will send you to the respective areas.
+1) There is a navigation area that will send you to the respective areas.
+2) There is a banner. The purpose of the banner is to make the user scroll down the page, and to make the navigation options more obvious.
 2)  About Me: 
     A brieve overview of who am I and my computer's experience
 3)  Work (as web developer): Projects worked on in this course:
@@ -36,3 +37,4 @@ The project have three sections
         * LinkedIn logo. If clicked in, opens my LinkedIn profile
         * Facebook logo. If clicked in, opens my facebook page
     b)  Form to send email. As of now, just place holders
+5)  Footer. Thank you for visiting my portfolio, message.

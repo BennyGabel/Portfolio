@@ -224,36 +224,49 @@ header nav ul li a {
 
     border-radius: 10px;
     background-color: rgba(255,255,255, .75);
-  }
+}
 
-  .contact-form button {
+.contact-form button {
     background-color: rgb(221, 224, 220);
     color: black; /* #rgb(1, 75, 1);*/
     border-radius: 5px;
     margin-bottom: 5px; /* 15px; */
     margin-top: 10px;
-  }
+}
 
-  .contact_tbl tr{
+.contact_tbl tr{
     height: 30px;
-  }
+}
+
+.footer{
+    padding: 20px 35px; 
+    background-color: #8ec998;
+    color:darkblue;
+    display: flex;
+    flex-wrap: wrap;
+    top: 0;
+}
+
+
+
+
 
 
 /*  Media query  */
 
 /* On screens that are 992px or less, set the background color to blue */
 @media screen and (max-width: 992px) {
-body section {
-    background-color: rgb(204, 204, 228);
-    color: #4b39b2;
-}
+    body section {
+        background-color: rgb(204, 204, 228);
+        color: #4b39b2;
+    }
 }
 
 /* On screens that are 600px or less, set the background color to olive */
 @media screen and (max-width: 600px) {
-body section {
-    background-color: rgb(186, 194, 185);
-    color: #4b39b2;
-}
+    body section {
+        background-color: rgb(186, 194, 185);
+        color: #4b39b2;
+    }
 }
   
