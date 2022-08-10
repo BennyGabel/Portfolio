@@ -1,27 +1,31 @@
+/* alert("Hello") */
+
 * { box-sizing: border-box;
     margin: 0%;}
 
 body {
     color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
-    font-size: medium;
 }
+  
+  
+/* HEADER / NAV BAR STYLES START */
   
 header {
     padding: 20px 35px;
+    
     background-color: #8ec998;
+    /*background-color: #83adb9; */
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    z-index: 1000;
-    position: sticky;
-    top: 0;
 }
 
 header h1 {
-    color:darkblue;
+    color:darkblue
 }
  
+
 header nav {
     margin: 7px 0;
 }
@@ -43,9 +47,13 @@ header nav ul li a {
 .hero {
     background-size: cover;
     background-position: center;
+    /* display: flex; */
     display: block;
-    justify-content:left 
-
+    justify-content:left /* center; */
+    /*
+    flex-wrap: wrap;
+    align-items: flex-start;
+    */
 }
 
 .hero img{
@@ -55,14 +63,18 @@ header nav ul li a {
     justify-content:center;
     flex-wrap: wrap;
     align-items: flex-start;
-   
+    
 }
 
+/*
+*/
 .container {
+    /*max-width: 1000px;*/
     margin: 0 auto;
 }
 
 .container h2 {
+    /*max-width: 1000px;*/
     margin: 0 auto;
     color:black;
 
@@ -70,10 +82,14 @@ header nav ul li a {
 .grid-row {
     display: flex;
     flex-flow: row wrap;
+    /*justify-content: flex-start;*/
     justify-content: space-between;
 }
 
 .grid-item {
+    border: 1px solid saddlebrown;
+
+    /*height: 100px;*/
     flex-basis: 50%;
     
     /*flex: auto;*/
@@ -93,20 +109,18 @@ header nav ul li a {
     padding-right: 10px;
     position: relative;
     justify-content: right;
+
+    /*position: relative;*/
+    /*padding-left: 10px;*/
+    /*align-items: center;*/
+    
+    
+/*    width:200px;
+    height:200px; */
+    
+    /*vertical-align: middle;*/
 }
 
-.contactjpg {
-    display:flex;
-    padding-right: 5px;
-    position: relative;
-    justify-content: right;
-}
-
-.contact_tbl {
-    display:flex;
-    position: relative;
-    justify-content: center;
-}
 .t_left{
     text-align:left;
 }
@@ -119,16 +133,39 @@ header nav ul li a {
     text-align:center;
 }
 
+/*
+.work h2{
+    text-align:center;
+}
+*/
+
+/*
+.imgcenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-position: center;
+  }
+*/
+
 .portfolio {
     flex: 4;
-
     background-color: #fff;
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    /*justify-content: space-around;*/
 
-     /* justify-content:space-around;  /*   : space-between; */
+
+    /*
+    margin-left: 10px;
+    margin-right: 10px;
+
+    left: 10px;
+    right: 10px;
+    */
 }
 
 .card {
@@ -141,8 +178,6 @@ header nav ul li a {
     flex: 0 0 400px;
     margin-left: 20px;
     margin-right: 20px;
-    /* margin-top: 20px;   */
-    margin-bottom: 20px;    /* Will kick in when wrapped up */
     /**/
     position: relative;
     display: inline-block;
@@ -151,39 +186,6 @@ header nav ul li a {
   
 .card header {
     padding: 20px;
-}
-    
-.card img {
-    width: 100%;
-    background-position: center;
-}
-
-/*.card:visited{*/
-.card:hover{
-    border-color: blueviolet;
-    border-style: double;
-    border-width: 3px;
-    background-color: #8ec998;
-    
-}
-
-.card .img-top {
-    display: none;
-    /*position: absolute;*/
-    position: relative;
-    top: 0;
-    left: 0;
-    z-index: 99;
-}
-
-#event3:hover .img-top {
-    display: inline;
-}
-
-.card:hover {
-    background-color: #8ec998;
-    border-color: red;
-    border: double;
 }
   
 .card p {
@@ -196,7 +198,6 @@ header nav ul li a {
 
 .card:hover {
     background-color: #8ec998;
-    border-color: red;
     border: double;
 }
   
@@ -208,52 +209,5 @@ header nav ul li a {
     z-index: 99;
 }
 .card:hover .img-top {
-    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     display: inline;
 }
-
-.contact-form input, .contact-form textarea {
-    border: 1px solid #024e76;
-    display: block;
-    padding: 7px 15px;
-    font-size: 16px;
-    color: #024e76;
-    width: 100%;
-    margin-bottom: 5px; /* 15px; */
-    margin-top: 5px;
-
-    border-radius: 10px;
-    background-color: rgba(255,255,255, .75);
-  }
-
-  .contact-form button {
-    background-color: rgb(221, 224, 220);
-    color: black; /* #rgb(1, 75, 1);*/
-    border-radius: 5px;
-    margin-bottom: 5px; /* 15px; */
-    margin-top: 10px;
-  }
-
-  .contact_tbl tr{
-    height: 30px;
-  }
-
-
-/*  Media query  */
-
-/* On screens that are 992px or less, set the background color to blue */
-@media screen and (max-width: 992px) {
-body section {
-    background-color: rgb(204, 204, 228);
-    color: #4b39b2;
-}
-}
-
-/* On screens that are 600px or less, set the background color to olive */
-@media screen and (max-width: 600px) {
-body section {
-    background-color: rgb(186, 194, 185);
-    color: #4b39b2;
-}
-}
-  
